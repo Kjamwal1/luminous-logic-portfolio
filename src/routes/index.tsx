@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowUpRight, Download, Linkedin, Mail, MapPin } from "lucide-react";
 import portrait from "../assets/kanika-jamwal-portrait.png.asset.json";
 import resume from "../assets/kanika-jamwal-resume.pdf.asset.json";
+import { ParticleField } from "@/components/ParticleField";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -78,6 +79,9 @@ function Portfolio() {
       </header>
 
       <section id="top" className="relative mx-auto grid min-h-[94vh] max-w-7xl items-center gap-10 px-5 pb-14 pt-28 lg:grid-cols-[1.15fr_.85fr] lg:px-8">
+        <ParticleField className="pointer-events-none absolute -inset-x-5 inset-y-0 z-0 opacity-70 lg:-inset-x-8" />
+        <div className="glow-orb orb-a" aria-hidden="true" />
+        <div className="glow-orb orb-b" aria-hidden="true" />
         <div className="relative z-10">
           <div className="mb-8 flex items-center gap-3 text-xs font-bold uppercase tracking-[.24em] text-primary">
             <span className="status-dot" /> Available for opportunities
