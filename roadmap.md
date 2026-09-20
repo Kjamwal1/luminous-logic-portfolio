@@ -4,4 +4,4 @@
 - [x] Build dark professional portfolio
 - [x] Add CareerHub and Human Detection System
 - [x] Include résumé download and contact links
-- [ ] Verify desktop and mobile presentation
+- [x] Verify desktop and mobile presentation
