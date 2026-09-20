@@ -97,7 +97,7 @@ function Portfolio() {
           <div className="portrait-orbit orbit-one" />
           <div className="portrait-orbit orbit-two" />
           <div className="portrait-frame">
-            <img src={portrait.url} alt="Kanika Jamwal speaking at a podium" className="h-full w-full object-cover object-[52%_center] grayscale-[15%]" />
+            <img src={portrait.url} alt="Kanika Jamwal" className="h-full w-full object-cover object-center grayscale-[15%]" />
             <div className="portrait-shade" />
             <div className="absolute bottom-5 left-5 right-5 flex justify-between border-t border-foreground/25 pt-4 text-[10px] font-semibold uppercase tracking-[.18em] text-foreground">
               <span>Developer</span><span>Designer</span><span>AI Builder</span>
